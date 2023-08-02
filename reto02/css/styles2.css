@@ -58,8 +58,8 @@ footer p{
     text-align: center;
     font-family: caveat;
     font-weight: 700;
-    font-size: 30px;
-    height: 55px;
+    font-size: 25px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,11 +94,10 @@ section img{
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: center;
-    /*  height:;
-    */width: 100%;
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 59px;
-    height: 280px;
+    height: 230px;
     max-height: 350px;
 
 }
@@ -108,14 +107,80 @@ section img{
 
 }
 
-/*body footer{display: flex;
-    align-items: flex-end;
-justify-content: center;
-width: 100%;
-}*/
+.flex{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    list-style: none;
+    align-items: center;
+}
 
-/*footer p {
-    display: inline-block;
-    margin: 0;
-    padding: 0%;
-}*/
+.flex2{
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    list-style: none;
+    align-items: center;
+    
+
+
+}
+
+#prefooter {
+    display: flex;
+    height: 40px;
+    border-bottom: 0.5px solid #ff8e8ed6;
+}
+
+
+
+
+#prefooter1{
+    display: flex;
+    background: #FF8E8E;
+    width: 50%;
+    height: 40px;
+
+}
+
+#prefooter2{
+    display: flex;
+    background: #FF8E8E;
+    width: 50%;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+.claselocaizq{
+    /*background-color: red;*/
+    margin-left: 0;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.claselocader{
+    /*background-color: red;*/
+    margin-left: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.claselocaespecial1{
+    margin-left: -16px;
+    margin-top: 5px;
+    margin-right: 18px;
+    margin-bottom: 5px;
+
+}
+
+.claselocaespecial2{
+    margin-right: 1px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.pprefooter{
+    font-size: 20px;
+}
