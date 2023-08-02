@@ -2,19 +2,28 @@ body{
     background-color: blanchedalmond;
     margin: 0px;
     font-family: caveat;
+    min-height: 100vh;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
 }
 header{
     
     background-color: #FF8E8E;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 40px;
     align-items: center;
 }
 
-header div{
+.divsnormales{
     background-color: #FFD59D;
-    margin: 3px;
+    margin: 11px;
     padding: 3px;
     height: 21px;
     border-radius: 19px 0 12px 0;
@@ -22,7 +31,11 @@ header div{
     display: flex;
     justify-content: center;
     font-size: 16px;
+    align-items: center;
+
 }
+
+
 
 #divsalmon {
     height: 100px;
@@ -35,18 +48,46 @@ header div{
     margin-top: 25px;
 }
 
+
+
 #section1{
     height: 300px;
     display: flex;
     align-items: flex-end;
     background-color: blanchedalmond;
     justify-content: center;
+    flex :1 ;
 }
 section div{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+#fotopersonal{
+    height: 32px;
+    border-radius: 100%;
+    border: solid 0.5px;
+    margin: 11px;
+    }
+
+#fotopersonal:hover{ 
+    height: 40px;
+    border-radius: 100%;
+    border: solid 0.5px;
+}
+
+.svgapp{
+    height: 51px;
+
+    margin: 16px 11px 11px 11px;
+    
+    
+        }
+    
+
+
+
 
 footer p{
         display: inline-block;
