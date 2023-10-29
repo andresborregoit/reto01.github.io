@@ -34,6 +34,15 @@ body{
     margin: 3.2px;
 }
 
+.divp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+
 
 #sectionp{
     text-align: center;
@@ -45,16 +54,23 @@ body{
 
 }
 
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 #fuerapuntos{
     list-style: none;
     text-align: center;
     margin-right: 32.5px;
 }
 
-.btn{ margin: 7.5px;
+.btn{ margin: 9.5px;
     padding: 8px;
-    width: 145px;
-    /*border-block-color: yellow;*/
     border-radius: 50px;
     border: solid #212121;
     border-bottom-left-radius: 55px;
@@ -62,6 +78,9 @@ body{
     color: #212121;
     text-decoration: none;
     background-color: #FBC02D;
+    height: 47px;
+    width: 204px;
+    font-size: 15px;
 }
 
 footer {
