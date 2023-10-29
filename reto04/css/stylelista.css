@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(80 233 255 / 64%);
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: josefin sans;
+}
+
+#container3{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(80 233 255 / 64%);
+    display: flex;
+    justify-content: center;
+    font-family: josefin sans;
+    }
+
+
+
+
+#divtitulopadre3{
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    border: solid 1px grey;
+    background: #6088ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 28px;
+    /* border: solid 0.5px*/;
+
+}
+#divform3{
+    width: 94%;
+    background-color: snow;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    
+    border: solid 0.5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+
+}
+
+#emoji3{
+    font-size: 50px;
+
+}
+#row1{
+display: flex;
+margin:  0;
+}
+#row2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    align-items: stretch;
+}
+
+#row3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#ptitular3{
+    font-size: 30px;
+}
+
+#spanemoji{
+    font-size: 58px;
+
+}
+
+#ptimer3{
+    margin-right: 15px;
+
+}
+
+#btncheck3{
+    margin-right: 5px;
+
+}

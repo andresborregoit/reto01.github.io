@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(80 233 255 / 64%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: josefin sans;
+}
+
+#container2{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(80 233 255 / 64%);
+    display: flex;
+    justify-content: center;
+    font-family: josefin sans;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+
+
+#divtitulopadre2{
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    border: solid 1px grey;
+    background: #6088ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 28px;
+
+    /* border: solid 0.5px*/;
+
+}
+#divform2{
+    width: 94%;
+    background-color: snow;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    border: solid 0.5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+
+}
+
+#input2{
+    margin: 10px 10px 10px 10px;
+    width: 46%;
+    font-family: josefin sans;
+
+}
+
+#select{
+    margin: 10px 10px 10px 10px;
+    width: 46%;
+    font-family: josefin sans;
+
+
+}
+
+#btn2{
+    width: 40%;
+    font-family: josefin sans;
+}
+
+#contenedorbutton2{
+    height: 150px;
+    width: 94%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+#btnadd2{
+    height: 35px;
+    background: white;
+    border: solid 1px grey;
+    border-radius: 10px;
+    font-family: josefin sans;
+}
+
+#divinput2{
+
+}
+
+#divemojis2{
+
+}
+
+#divhorabutton2{
+    
+}
+
+label{
+    margin-left: 11px;
+    margin-top: 3px;
+}
+
+form{
+    display: grid;
+}

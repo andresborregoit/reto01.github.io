@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contador de 7 días</title>
+</head>
+<body>
+  <button id="botonIniciar">Iniciar</button>
+  <p id="cuentaRegresiva"></p>
+
+  <script>
+    const elementoCuentaRegresiva = document.getElementById('cuentaRegresiva');
+    const regresiva = () =>{      const fechaInicio = Date.now();
+      const fechaFin = fechaInicio + (7 * 24 * 60 * 60 * 1000); // Agregamos 7 días en milisegundos
+
+      
+      
+      function actualizarCuentaRegresiva() {
+        const tiempoActual = Date.now();
+        const tiempoRestante = fechaFin - tiempoActual;
+        
+        if (tiempoRestante <= 0) {
+          elementoCuentaRegresiva.textContent = '¡Han pasado 7 días!';
+        } else {
+          const diasRestantes = Math.floor(tiempoRestante / (24 * 60 * 60 * 1000));
+          const horasRestantes = Math.floor((tiempoRestante % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+          const minutosRestantes = Math.floor((tiempoRestante % (60 * 60 * 1000)) / (60 * 1000));
+          const segundosRestantes = Math.floor((tiempoRestante % (60 * 1000)) / 1000);
+
+          elementoCuentaRegresiva.textContent = `Faltan ${diasRestantes} días, ${horasRestantes} horas, ${minutosRestantes} minutos y ${segundosRestantes} segundos.`;
+        }
+      }
+
+      // Llamamos a actualizarCuentaRegresiva cada segundo para mantener actualizada la cuenta regresiva
+      actualizarCuentaRegresiva();
+      setInterval(actualizarCuentaRegresiva, 1000);
+    }
+    let btn = document.getElementById('botonIniciar')
+    btn.addEventListener('click', regresiva)
+  
+
+  </script>
+</body>
+</html>

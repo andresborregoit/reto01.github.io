@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cambio de Contenido</title>
+</head>
+<body>
+  <button id="botonCambiar">Cambiar Contenido</button>
+  <div id="contenedor"></div>
+
+  <script>
+    document.getElementById('botonCambiar').addEventListener('click', function() {
+      const template = `<p id="miParrafo">Contenido inicial</p>`;
+      const contenedor = document.getElementById('contenedor');
+      contenedor.innerHTML = template;
+
+      // Cambiar el contenido del párrafo al hacer clic en el mismo botón
+      const miParrafo = document.getElementById('miParrafo');
+      miParrafo.textContent = 'Contenido cambiado al instante';
+    });
+  </script>
+</body>
+</html>

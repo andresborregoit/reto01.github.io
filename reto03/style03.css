@@ -12,6 +12,7 @@ body{
 font-family: comfortaa;
 display: flex;
 justify-content: center;
+overflow-y: auto;
 }
 
 
@@ -38,7 +39,7 @@ justify-content: center;
 
 #lista{
     background-color: rgb(247, 188, 255);
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
