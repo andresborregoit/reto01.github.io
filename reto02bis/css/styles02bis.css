@@ -26,7 +26,7 @@ a{
 
 
 header{
-    background-color:blanchedalmond;
+    background-color:#202124;
     display: flex;
     justify-content: flex-end;
 
@@ -36,52 +36,124 @@ header ul{
     display: flex;
     list-style: none;
     align-items: center;
+    text-decoration: none;
 }
 
 header li{
-    margin: 0 16px;
+    margin: 0 10px;
     padding: 0;
+    font-size: 13px;
+    
 
 }
 
-header img{
+header a{
+    color: white !important;
+}
+
+
+
+.imgyo{
     width: 30px;
     border-radius: 100px;
-    border: 3px solid;
+    margin: 0px 7px 0px 0px;
     height: 30px;
+
 }
 
-
+.imgapp{
+    height: 21px;
+    width: 21px;
+}
 
 
 /*SECTION------------------------------------------*/
 section{
-    background-color: blanchedalmond;
+    background-color: #202124;
     min-height: 400px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     flex: 1;
-    padding-top: 75px;
+    padding-top: 50px;
     
 
 
 }
 
-img{
-    width: 359px;
-    height: 190px;
+.googleprincipal{
+
+    margin-bottom: 26px;
 }
+
+img{
+    width: 272px;
+    height: 92px;
+}
+
+.divInput{
+    width: 582px;
+    height: 47px;
+}
+
+.input{
+    height: 47px;
+    width: 582px;
+    height: 47px;
+    width: 582px;
+    background: #202124;
+    border: 1px solid #666;
+    border-radius: 25px;
+
+}
+
+.divbtn{
+    padding-top: 30px;
+}
+button{
+    color: white;
+
+}
+
+.btn{
+    border-radius: 5px;
+    background: #303134;
+    width: 147px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+    font-size: 14px;
+
+}
+
+.btn:hover{
+    border: solid 1px #666 ;
+
+}
+
+.iconinput{
+    height: 15px;
+    width: 15px;
+    
+}
+
+
 
 
 
 
 /*FOOTER--------------------------------------------------------------*/
 footer{
-    background-color: seagreen;
+    background-color: #171717;
 }
 
+footer a{
+    text-decoration: none;
+    list-style: none;
+    color: #999DA2;
+}
 .foot-top{
     /* display: flex;
     justify-content: space-between;*/
@@ -110,4 +182,5 @@ footer{
 .foot-bot li{
     margin: 0 16px;
 }
+
 
