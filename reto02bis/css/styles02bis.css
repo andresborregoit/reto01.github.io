@@ -109,7 +109,7 @@ img{
 }
 
 .divbtn{
-    padding-top: 30px;
+    padding-top: 9px;
 }
 button{
     color: white;
@@ -138,7 +138,104 @@ button{
     width: 15px;
     
 }
+/*------------BARRA DE BUSQUEDA-----------------------*/
+.searchbox {
+    display: flex;
+    z-index: 3;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #555555;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 584px;
+    margin-bottom: 20px;
+}
 
+.searchcontainer {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+    align-items: center;
+    justify-content: space-around;
+    width: 582px;
+}
+
+.material-symbols-outlined {
+    color:#dcdcdc;
+    display: flex !important;
+    font-size: 21px !important;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-left: 1px !important;
+}
+
+.divinput2 {
+    width: 80%;
+}
+
+.recentsearch {
+    display: none;
+    position: absolute;
+    justify-content: space-around;
+    height: 280px;
+    background: #292929;
+    border: 1px solid #555555;
+    border-radius: 0px 0px 24px 24px;
+    margin: 0 auto;
+    width: 584px;
+    left: 0; 
+    right: 0; 
+    margin-top: -23px;
+    }
+
+    .d-none {
+        display : none;
+    }
+
+    img.icon{
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+    
+    img.icon:first-child{
+        padding-right: 15px;
+        height: 20px;
+    }
+    
+    img.icon:last-child {
+        height: 15px;
+        padding-right: 15px;
+        padding-bottom: 3px;
+    }
+
+.iconolupa{
+    width: 16px;
+    height: 16px;
+
+}
+.iconmic{
+    width: 25px;
+    height: 25px;
+    margin: 0px 11px 2px 0px;
+
+
+}
+.iconolens{
+    width: 18.5px;
+    height: 18.5px;
+    margin: 0px 9px 2px 0px;
+
+
+
+}
+
+.widthInput{
+    width: 450px;
+    background: transparent;
+    border-bottom: unset;
+    border-right: unset;
+}
 
 
 
@@ -153,6 +250,7 @@ footer a{
     text-decoration: none;
     list-style: none;
     color: #999DA2;
+    font-size: 14px;
 }
 .foot-top{
     /* display: flex;
@@ -172,15 +270,34 @@ footer a{
 .foot-bot ul{
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px 0px 0px 19px;
+    padding: 1px 0px 4px 0px;
 }
 
 .foot-top li{
     list-style: none;
+    margin: -2px 0px 0px -10px;
 }
 .foot-bot li{
     margin: 0 16px;
 }
 
+.arg{
+    font-size: 15px;
+}
 
+.foot-bot-rigth{
+    margin: 1px 19px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.alejadaizq{
+    margin: 0px -2.2px 0px 0px; 
+}
+.alejada{
+    margin: 0px -2px 0px 0px;
+}
+
+.alejadagoog{
+
+}
